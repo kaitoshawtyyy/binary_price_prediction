@@ -33,6 +33,5 @@ predictions = predictions.reshape(-1, 1)
 predictions_actual = scaler_y.inverse_transform(predictions)
 
 
-
 print(predictions)
 print(predictions_actual)
